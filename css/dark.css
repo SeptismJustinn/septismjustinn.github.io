@@ -1,0 +1,56 @@
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  margin: 0;
+  background-color: rgba(100, 100, 100, 0.8);
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: greenyellow;
+}
+
+#main_header {
+  display: flex;
+  justify-content: center;
+}
+
+#page_layout {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Projects List CSS */
+#projects_container {
+  margin: 2vh 2vw;
+}
+
+#projects_container {
+  width: 70vw;
+}
+.project_link {
+  margin: 0.5rem auto;
+}
+
+.project_link > a {
+  text-decoration: none;
+}
+
+/* Accessory Panel CSS */
+#accessory_panel {
+  width: 20vw;
+  margin: 2vh 2vw;
+}
+
+#links_panel {
+  border: 2px solid black;
+  padding: 1vh;
+}
+
+#github_link {
+  vertical-align: middle;
+}
+
+#github_link > img {
+  height: 1rem;
+}

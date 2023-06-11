@@ -3,6 +3,10 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 #main_header {
   display: flex;
   justify-content: center;
@@ -23,10 +27,6 @@ body {
 }
 .project_link {
   margin: 0.5rem auto;
-}
-
-.project_link > a {
-  text-decoration: none;
 }
 
 /* Accessory Panel CSS */
