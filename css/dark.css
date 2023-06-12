@@ -10,6 +10,10 @@ a {
   color: greenyellow;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 #main_header {
   display: flex;
   justify-content: center;
@@ -30,10 +34,6 @@ a {
 }
 .project_link {
   margin: 0.5rem auto;
-}
-
-.project_link > a {
-  text-decoration: none;
 }
 
 /* Accessory Panel CSS */
