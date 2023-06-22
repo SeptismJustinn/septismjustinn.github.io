@@ -25,11 +25,11 @@ a:hover {
 }
 
 /* Projects List CSS */
-#projects_container {
+.projects_container {
   margin: 2vh 2vw;
 }
 
-#projects_container {
+.projects_container {
   width: 70vw;
 }
 .project_link {
@@ -51,6 +51,6 @@ a:hover {
   vertical-align: middle;
 }
 
-#github_link > img {
+.link_icon {
   height: 1rem;
 }
